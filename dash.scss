@@ -1,0 +1,105 @@
+@import "reset";
+@import "fonte";
+@import "colors";
+@import "espacamentos";
+
+body{
+    padding: $p__16;
+    background-color: $bg__body;
+    font-family: $font__family;
+    font-size: $font__size-m;
+    font-weight: $font__weigth;
+    color: $white;
+}
+
+/* -- Header -- */
+
+header{
+    background-color: $bg__header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2rem;
+
+    .header__perfil{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .icon__perfil{
+            margin: 0 $p__16;
+            text-align: center;
+        }
+
+        .logout{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon__logout{
+                padding-left: .5rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* -- Main -- */
+
+main{
+    display: flex;
+    margin: $m__16 0;  
+
+    .side{
+        width: 15%;
+        background-color: $bg__side;
+        margin-right: $m__16;
+
+        .side__list{
+            li{
+                padding: .6rem 1.3rem;
+                margin: .8rem 0;
+                background-color: $bg__side-div;
+            }
+        }
+    }
+
+    .task{
+        width: 85%;
+        background-color: $white;
+        color: $black;
+        padding: $p__32;
+
+        h2{
+            border-left: .5rem solid $bg__side-div;
+            padding-left: $p__11;
+            font-size: $font__size-l;
+        }
+
+        p{
+            padding: 1.7rem 0 1.7rem 1.7rem;
+            font-size: $font__size-p;
+        }
+
+        textarea{
+            width: 100%;
+            border: 1px solid $bg__side;
+            border-radius: .5rem;
+            padding-top: .5rem;
+        }
+    }
+}
+
+/* -- Footer -- */
+
+footer{
+    background-color: $black;
+    padding: 3rem $p__32;
+    display: flex;
+    justify-content: center;
+
+    .title__footer, p{
+        width: 50%;
+        text-align: end;
+    }
+}
