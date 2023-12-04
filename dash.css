@@ -1,0 +1,153 @@
+/* -- Compilador ** Live Sass Compilator ** utilizado -- */
+/* -- Arquivo de Reset-- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -- Arquivo da Fonte-- */
+/* -- Link da Fonte -- */
+/* -- Transformando o tamanho da fonte padrao para 10px-- */
+html {
+  font-size: 62.5%;
+}
+
+/* -- Variaveis da Fonte-- */
+/* -- Arquivo de Cores -- */
+/* -- Variaveis das Cores--*/
+/* -- Arquivo dos Espacamentos-- */
+/* -- Variaveis dos Espacamentos-- */
+body {
+  padding: 1.6rem;
+  background-color: #D9D9D9;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* -- Header -- */
+header {
+  background-color: #414041;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 2rem;
+}
+header .header__perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__perfil .icon__perfil {
+  margin: 0 1.6rem;
+  text-align: center;
+}
+header .header__perfil .logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header__perfil .logout .icon__logout {
+  padding-left: 0.5rem;
+  width: 100%;
+}
+
+/* -- Main -- */
+main {
+  display: flex;
+  margin: 1.6rem 0;
+}
+main .side {
+  width: 15%;
+  background-color: #0D4504;
+  margin-right: 1.6rem;
+}
+main .side .side__list li {
+  padding: 0.6rem 1.3rem;
+  margin: 0.8rem 0;
+  background-color: #2f6306;
+}
+main .task {
+  width: 85%;
+  background-color: #fff;
+  color: #111;
+  padding: 3.2rem;
+}
+main .task h2 {
+  border-left: 0.5rem solid #2f6306;
+  padding-left: 1.1rem;
+  font-size: 2.2rem;
+}
+main .task p {
+  padding: 1.7rem 0 1.7rem 1.7rem;
+  font-size: 1.2rem;
+}
+main .task textarea {
+  width: 100%;
+  border: 1px solid #0D4504;
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+/* -- Footer -- */
+footer {
+  background-color: #111;
+  padding: 3rem 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+footer .title__footer, footer p {
+  width: 50%;
+  text-align: end;
+}/*# sourceMappingURL=dash.css.map */
